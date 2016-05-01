@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BD!</string>
+    <string name="action_settings">Settings</string>
+    <string name="status_online" translatable="false">Online</string>
+    <string name="error.network.unavailable">Network is not available</string>
+    <string name="error.common">Something wrong</string>
+    <string name="snackbar.button.text.retry">Retry</string>
+    <string name="progress.dialog.title">Loading…</string>
+    <string name="progress.dialog.message">Just a minute</string>
+    <string name="message_button_text_send">Send</string>
+    <string name="message_edit_text_message">Hello. I am interested in this goods:</string>
+
+    <string name="fragment.title.friends">Friends</string>
+    <string name="fragment.title.groups">Groups</string>
+    <string name="fragment.title.gifts">Goods</string>
+    <string name="fragment.title.calendar">Calendar</string>
+    <string name="fragment.subtitle.message">Last seen at</string>
+
+    <integer name="com_vk_sdk_AppId">5182156</integer>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="friends_menu_sort">Sort</string>
+    <string name="friends_dialog_title_sorting_by">Sorting by:</string>
+    <string name="friends_dialog_item_name">Name</string>
+    <string name="friends_dialog_item_majority">Majority</string>
+    <string name="friends_dialog_item_bdate">Birthday date</string>
+    <string name="search">Search</string>
+    <string name="groups_menu_filter">Filter</string>
+    <string name="gifts_filter_dialog_title">Goods filter</string>
+    <string name="gifts_filter_dialog_edit_text_hint_title_or_description_text">Title or description text</string>
+    <string name="gifts_filter_dialog_min_price">Min price</string>
+    <string name="gifts_filter_dialog_max_price">Max price</string>
+    <string name="drawer_my_friends">My Friends</string>
+    <string name="drawer_calendar">Calendar</string>
+    <string name="drawer_groups">Groups</string>
+    <string name="drawer_favorite_goods">Favorite goods</string>
+    <string name="gift_menu_leave_group">Leave the group</string>
+    <string name="gift_title_gifts_by_user">Gifts by %s</string>
+    <string name="gift_menu_join_group">Join the group</string>
+</resources>

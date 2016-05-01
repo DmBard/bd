@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/spacing_smaller"
+              android:paddingLeft="@dimen/spacing_normal"
+              android:paddingRight="@dimen/spacing_normal"
+              android:paddingTop="@dimen/spacing_smaller"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center|left"
+        android:text="@string/friends_dialog_title_sorting_by"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="@dimen/font_normal"
+        android:textStyle="normal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tv_by_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center|left"
+        android:text="@string/friends_dialog_item_name"
+        android:textSize="@dimen/font_normal"/>
+
+    <TextView
+        android:id="@+id/tv_by_majority"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center|left"
+        android:text="@string/friends_dialog_item_majority"
+        android:textSize="@dimen/font_normal"/>
+
+    <TextView
+        android:id="@+id/tv_by_bdate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center|left"
+        android:text="@string/friends_dialog_item_bdate"
+        android:textSize="@dimen/font_normal"/>
+</LinearLayout>

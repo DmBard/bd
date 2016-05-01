@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="friends_count">
+        <item quantity="zero"/>
+        <item quantity="one">friend</item>
+        <item quantity="two">friends</item>
+        <item quantity="few">friends</item>
+        <item quantity="many">friends</item>
+        <item quantity="other">friends</item>
+    </plurals>
+
+    <plurals name="groups_count">
+        <item quantity="zero"/>
+        <item quantity="one">group</item>
+        <item quantity="two">groups</item>
+        <item quantity="few">groups</item>
+        <item quantity="many">groups</item>
+        <item quantity="other">groups</item>
+    </plurals>
+
+    <plurals name="goods_count">
+        <item quantity="zero"/>
+        <item quantity="one">good</item>
+        <item quantity="two">goods</item>
+        <item quantity="few">goods</item>
+        <item quantity="many">goods</item>
+        <item quantity="other">goods</item>
+    </plurals>
+</resources>

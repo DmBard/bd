@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="friends_count">
+        <item quantity="zero"/>
+        <item quantity="one">друг</item>
+        <item quantity="two">друга</item>
+        <item quantity="few">друзей</item>
+        <item quantity="many">друзей</item>
+        <item quantity="other">друзей</item>
+    </plurals>
+
+    <plurals name="groups_count">
+        <item quantity="zero"/>
+        <item quantity="one">группа</item>
+        <item quantity="two">группы</item>
+        <item quantity="few">группы</item>
+        <item quantity="many">групп</item>
+        <item quantity="other">групп</item>
+    </plurals>
+
+    <plurals name="goods_count">
+        <item quantity="zero"/>
+        <item quantity="one">товар</item>
+        <item quantity="two">товара</item>
+        <item quantity="few">товара</item>
+        <item quantity="many">товаров</item>
+        <item quantity="other">товаров</item>
+    </plurals>
+</resources>

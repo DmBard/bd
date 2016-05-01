@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ДР!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="error.common">Что-то пошло не так</string>
+    <string name="error.network.unavailable">Сеть недоступна</string>
+    <string name="message_button_text_send">Отправить</string>
+    <string name="progress.dialog.message">Уже почти</string>
+    <string name="progress.dialog.title">Загрузка</string>
+    <string name="snackbar.button.text.retry">Повторить</string>
+
+    <string name="fragment.title.friends">Друзья</string>
+    <string name="fragment.subtitle.message">Был(а) онлайн </string>
+    <string name="friends_menu_sort">Sort</string>
+    <string name="friends_dialog_item_bdate">Дате рождения</string>
+    <string name="friends_dialog_item_majority">Важности</string>
+    <string name="friends_dialog_item_name">Имени</string>
+    <string name="friends_dialog_title_sorting_by">Сортировать по:</string>
+    <string name="fragment.title.groups">Группы</string>
+    <string name="fragment.title.gifts">Товары</string>
+    <string name="search">Поиск</string>
+    <string name="drawer_calendar">Календарь</string>
+    <string name="drawer_favorite_goods">Избранные товары</string>
+    <string name="drawer_groups">Мои группы</string>
+    <string name="drawer_my_friends">Мои друзья</string>
+    <string name="gift_menu_join_group">Вступить в группу</string>
+    <string name="gift_menu_leave_group">Покинуть группу</string>
+    <string name="gift_title_gifts_by_user">Товары %s</string>
+    <string name="gifts_filter_dialog_edit_text_hint_title_or_description_text">Название или описание</string>
+    <string name="gifts_filter_dialog_max_price">Max цена</string>
+    <string name="gifts_filter_dialog_min_price">Min цена</string>
+    <string name="gifts_filter_dialog_title">Фильтр товаров </string>
+    <string name="groups_menu_filter">Фильтр</string>
+    <string name="message_edit_text_message">Здравствуйте. Этот товар заинтересовал меня: %s</string>
+    <string name="fragment.title.calendar">Календарь</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_friends"
+            android:id="@+id/nav_friends"
+            android:title="@string/drawer_my_friends"/>
+        <item
+            android:icon="@drawable/ic_calendar"
+            android:id="@+id/nav_calendar"
+            android:title="@string/drawer_calendar"/>
+        <item
+            android:id="@+id/nav_my_groups"
+            android:icon="@drawable/ic_groups"
+            android:title="@string/drawer_groups"/>
+        <item
+            android:icon="@drawable/ic_fav_gifts"
+            android:id="@+id/nav_fav_gifts"
+            android:title="@string/drawer_favorite_goods"/>
+    </group>
+</menu>

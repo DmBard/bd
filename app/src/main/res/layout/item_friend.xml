@@ -1,0 +1,85 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_large"
+    android:background="@drawable/selector_item"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/spacing_normal"
+    android:paddingRight="@dimen/spacing_normal">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/size_normal"
+        android:layout_height="@dimen/size_normal"
+        android:layout_marginTop="@dimen/spacing_smaller"/>
+
+    <ImageView
+        android:id="@+id/iv_message"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="right|center"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        app:srcCompat="@drawable/ic_message"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="44dp"
+        android:layout_marginLeft="@dimen/spacing_huge"
+        android:layout_marginRight="44dp"
+        android:layout_marginStart="@dimen/spacing_huge"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/spacing_small">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:text="Nameffffffffffffffffffffffffffffffffffffffffffff"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="@dimen/font_normal"
+                android:textStyle="normal"
+                />
+
+            <View
+                android:id="@+id/v_status"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_online_status"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_bdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="@dimen/spacing_tiny"
+                app:srcCompat="@drawable/ic_bday_date"/>
+            <TextView
+                android:id="@+id/tv_bdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="22.12.1985"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/font_small"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
